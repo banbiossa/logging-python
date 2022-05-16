@@ -6,11 +6,13 @@ authors = ["Shota Shimizu <shota_shimizu@caddi.jp>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-logging_server = {path = "../logging-server"}
+logging-server = {path = "../logging-server"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+black = "^22.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
